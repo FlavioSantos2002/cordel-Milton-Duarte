@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+main{
+    width: 100%;
+    background-color: rgb(255 255 255);
+    padding-top: 1em;
+    padding-bottom: 1px;
+}
+
+section>p,.p{
+    font-family: 'Sriracha', cursive;
+    height: max-content;
+    display: block;
+    width: max-content;
+    border-width: 1px;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    margin-left: 4vmax;
+    line-height: 200%;
+    font-size: 3.6vmax;
+} 
+
+
+main>section>#e1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 66vmax;
+    color: white;
+}
+
+main>section>#e2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 66vmax;
+    color: white;
+}
+
+.p{
+    position: absolute;
+    left: 0em;
+    right: 0;
+    transform: translateY(-5%);
+    background-color: #0000004a;
+}
